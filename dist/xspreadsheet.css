@@ -36,7 +36,7 @@ body {
   position: absolute;
   left: calc(50% - 4px);
   top: -4px;
-  content: "";
+  content: '';
   width: 8px;
   height: 8px;
   background: inherit;
@@ -52,7 +52,7 @@ body {
   margin: 0;
   padding: 0;
   border-collapse: separate;
-  border-spacing: 2;
+  border-spacing: 2px;
   background: #fff;
 }
 .x-spreadsheet-color-palette table td {
@@ -235,7 +235,7 @@ body {
 .x-spreadsheet-selector .hide-input input {
   padding: 0;
   width: 0;
-  border: none!important;
+  border: none !important;
 }
 .x-spreadsheet-selector .x-spreadsheet-selector-area {
   position: absolute;
@@ -336,7 +336,7 @@ body {
 }
 .x-spreadsheet-item.state,
 .x-spreadsheet-header.state {
-  padding-left: 35px!important;
+  padding-left: 35px !important;
   position: relative;
 }
 .x-spreadsheet-item.state:before,
@@ -368,7 +368,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0!important;
+  opacity: 0 !important;
   outline: 0;
   z-index: -1;
 }
@@ -412,6 +412,7 @@ body {
 .x-spreadsheet-bottombar {
   height: 40px;
   padding: 0 30px;
+  box-sizing: border-box;
   text-align: left;
   background: #f5f6f7;
   display: flex;
@@ -604,7 +605,7 @@ body {
 .x-spreadsheet-calendar .calendar-body td > .cell.active,
 .x-spreadsheet-calendar .calendar-body td > .cell.active:hover {
   background: #ecf6fd;
-  color: #2185D0;
+  color: #2185d0;
 }
 .x-spreadsheet-calendar .calendar-body td > .cell.disabled {
   pointer-events: none;
@@ -637,9 +638,9 @@ body {
   font-weight: 700;
   padding: 0.75em 1em;
   color: rgba(0, 0, 0, 0.6);
-  background: #E0E1E2;
+  background: #e0e1e2;
   text-decoration: none;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato', 'proxima-nova', 'Helvetica Neue', Arial, sans-serif;
   outline: none;
   vertical-align: baseline;
   zoom: 1;
@@ -648,12 +649,12 @@ body {
 }
 .x-spreadsheet-button.active,
 .x-spreadsheet-button:hover {
-  background-color: #C0C1C2;
+  background-color: #c0c1c2;
   color: rgba(0, 0, 0, 0.8);
 }
 .x-spreadsheet-button.primary {
   color: #fff;
-  background-color: #2185D0;
+  background-color: #2185d0;
 }
 .x-spreadsheet-button.primary:hover,
 .x-spreadsheet-button.primary.active {
@@ -818,7 +819,7 @@ form fieldset select {
   background: rgba(0, 0, 0, 0.08);
 }
 .x-spreadsheet-toast-header {
-  color: #F2711C;
+  color: #f2711c;
 }
 .x-spreadsheet-modal-header {
   border-bottom: 1px solid #e0e2e4;
